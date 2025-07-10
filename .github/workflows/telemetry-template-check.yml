@@ -9,6 +9,7 @@ on:
 
 jobs:
   validate-metadata-template:
+    name : validate-metadata-template
     runs-on: ubuntu-latest
 
     steps:
