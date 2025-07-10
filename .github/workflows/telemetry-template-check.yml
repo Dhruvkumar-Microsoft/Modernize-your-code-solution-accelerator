@@ -27,4 +27,4 @@ jobs:
             exit 1
           fi
 
-          echo "✅ metadata.template line is present and not commented."
+          echo "metadata.template line is present and not commented."
