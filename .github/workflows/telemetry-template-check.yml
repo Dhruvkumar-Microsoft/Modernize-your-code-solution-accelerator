@@ -1,11 +1,11 @@
-name: Check telemetry metadata.template in azure.yaml
+name: enforce telemetry template property in azure.yaml
 
 on:
   pull_request:
     branches:
       - main
     paths:
-      - 'azure.yaml'  # Trigger only if azure.yaml is modified
+      - 'azure.yaml'
 
 jobs:
   validate-metadata-template:
@@ -28,4 +28,4 @@ jobs:
             exit 1
           fi
 
-          echo "metadata.template line is present and not commented."
+          echo "template line is present and not commented."
