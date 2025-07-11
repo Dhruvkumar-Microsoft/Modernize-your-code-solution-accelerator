@@ -18,7 +18,3 @@ deployment:
     AzureAiServiceLocation: ${{ parameters.AzureAiServiceLocation }}
     Prefix: ${{ parameters.Prefix }}
     baseUrl: ${{ parameters.baseUrl }}
-
-
-
-
