@@ -13,7 +13,7 @@ import uvicorn
 # Load environment variables
 load_dotenv()
 
-# Configure logging
+# Configure logging .
 logger = AppLogger("app")
 
 
