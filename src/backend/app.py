@@ -10,11 +10,10 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import uvicorn
 # from agent_services.agents_routes import router as agents_router
-
 # Load environment variables
 load_dotenv()
 
-# Configure logging
+# Configure logging .
 logger = AppLogger("app")
 
 

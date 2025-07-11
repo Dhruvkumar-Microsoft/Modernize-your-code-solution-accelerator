@@ -27,5 +27,5 @@ jobs:
             echo "ERROR: Required 'template' line is missing in azure.yaml! Please add template line for telemetry."
             exit 1
           fi
-
           echo "template line is present and not commented."
+
