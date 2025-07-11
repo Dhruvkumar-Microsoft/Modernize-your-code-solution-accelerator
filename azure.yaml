@@ -1,6 +1,6 @@
 name: modernize-your-code-solution-accelerator
 metadata:
-    template: modernize-your-code-solution-accelerator@1.0
+    ########template: modernize-your-code-solution-accelerator@1.0
 parameters:
   AzureAiServiceLocation:
     type: string
